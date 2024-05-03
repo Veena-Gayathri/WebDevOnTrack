@@ -1,0 +1,47 @@
+
+h1{
+    font-family: "Jaro", sans-serif;
+    margin-left: 2.3%;
+    padding: 20px;
+}
+div{
+    width: 45%;
+    display: inline-block ;
+    margin: 2.3%;
+    background-color: lightgrey;
+    text-align: center;
+    font-family: "Jaro", sans-serif;
+    font-weight: lighter;
+}
+.try img{
+    width:100%;
+    aspect-ratio: 1.25;
+}
+span.paper-clip:after {
+    width: 11px;
+    height: 20px;
+    content: " ";
+    background: white;
+    display: block;
+    position: absolute;
+    right: 2px;
+    top: 4.5px;
+    border-radius: 10px;
+    border: 2px solid red;
+    border-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+span.paper-clip {
+    background: white;
+    height: 40px;
+    width: 15px;
+    border-radius: 10px;
+    border: 2px solid red;
+    display: inline-block;
+    position: absolute;
+}
+span.paper-clip{    
+    transform: translate(-3.5em,-1em) rotate(0.07turn);
+    opacity:0.5;
+}
